@@ -71,7 +71,7 @@ Adjust the file path depending on each project’s subfolder if necessary.
 Ask questions and see retrieval + answer output.
 
 - Project B (Q&A + Conversation Chatbot):
-  Navigate into 4.1-RAG+Q&A+Conversation/4.1-RAG Q&A Conversation, then launch the chat interface. E.g.:
+  Navigate into RAG Q&A Conversation, then launch the chat interface. E.g.:
   ```bash
   python chat_bot.py
 The system keeps session context and allows follow-up questions.
@@ -87,13 +87,11 @@ The system keeps session context and allows follow-up questions.
 RAG-Document-Q-A-Chatbot/
 ├── LICENSE
 ├── README.md
-├── 4-RAG+Document+Q&A/
-│   └── 4-RAG Document Q&A/
+├── RAG Document Q&A/
 │       ├── ingestion.py
 │       ├── qa.py
 │       └── (other scripts, notebooks)
-├── 4.1-RAG+Q&A+Conversation/
-│   └── 4.1-RAG Q&A Conversation/
+├── RAG Q&A Conversation/
 │       ├── chat_bot.py
 │       ├── session_manager.py
 │       └── (other scripts, notebooks)
